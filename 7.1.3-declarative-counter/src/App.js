@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 
 function App() {
-  let [ counterNum, setCounterNum ] = useState(1000)
+  let [ counterNum, setCounterNum ] = useState(1000444)
   window.setCounterNum = setCounterNum
   return (
     <div className="App">
@@ -13,7 +13,6 @@ function App() {
         {counterNum}
       </p>
       </header>
-      <button className="add-num">Add</button>
     </div>
   );
 }
